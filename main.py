@@ -1,12 +1,17 @@
 import turtle
 
+
+def escalier(taille, nb):
+    for i in range(0, nb):
+        t.forward(taille)
+        t.left(90)
+        t.forward(taille)
+        t.right(90)
+    t.forward(taille)
+
+
 t = turtle.Turtle()
 
-t.forward(100)
-t.left(90)
-t.forward(50)
-t.backward(100)
-t.right(45)
-t.forward(200)
+escalier(30, 5)
 
 turtle.done()
