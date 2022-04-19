@@ -7,11 +7,12 @@ def escalier(taille, nb):
         t.left(90)
         t.forward(taille)
         t.right(90)
+        taille -= 10
     t.forward(taille)
 
 
 t = turtle.Turtle()
 
-escalier(30, 5)
+escalier(60, 5)
 
 turtle.done()
